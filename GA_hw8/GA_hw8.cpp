@@ -6,6 +6,7 @@ using namespace std;
 int main() {
 	//Àç±Í
 	//¸Þ¸ð
+	//dp ga
 
 
 
