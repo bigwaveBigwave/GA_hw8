@@ -51,6 +51,7 @@ int main() {
     double p;
     srand(time(NULL));
 
+
     vector <pair<int, int>> v[1001];
 
     ifstream fp("test.txt");
