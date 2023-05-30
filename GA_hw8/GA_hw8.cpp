@@ -202,6 +202,7 @@ int main() {
         }
     } while (countNum++ != 100); // 반복할 세대의 횟수
 
+
     // 세대 중에 제일 큰 값 찾기
     for (int i = 0; i < parentNum; i++) {
         if (cost[maxP] < cost[i]) maxP = i;
