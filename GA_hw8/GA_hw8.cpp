@@ -78,6 +78,7 @@ int main() {
     }
 
     int parentNum = 10;
+
     int cost[10];
     vector<vector<int>> parents(parentNum, vector<int>(node + 1));
     for (int i = 0; i < parentNum; i++) {
