@@ -74,6 +74,7 @@ int main() {
     else {
         cout << "no file exist" << endl;
         return -1;
+
     }
 
     int parentNum = 10;
