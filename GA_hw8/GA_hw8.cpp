@@ -88,6 +88,7 @@ int main() {
     }
 
     for (int k = 0; k < parentNum; k++) {
+
         int sum = 0;
         for (int i = 1; i <= node; i++) {
             for (int j = 0; j < v[i].size(); j++) {
