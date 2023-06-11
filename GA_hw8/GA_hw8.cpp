@@ -104,6 +104,7 @@ int main() {
     vector<vector<int>> child(childNum, vector<int>(node + 1));
     int maxP = 0;
     int countNum = 0;
+
     do {
 
         for (int a = 0; a < childNum; ++a) {
