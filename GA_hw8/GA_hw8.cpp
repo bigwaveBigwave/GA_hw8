@@ -134,6 +134,7 @@ int main() {
 
             // mutation
 
+
             for (int i = 1; i <= node; i++) {
                 randNum = rand() % 1000;
                 if (randNum < 1) {
