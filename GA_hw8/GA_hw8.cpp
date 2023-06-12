@@ -13,6 +13,7 @@ int calcMemCost(int n, vector<int>& memo, vector<int>& child, vector<pair<int, i
     int cost;
     int sum = 0;
     for (int j = 0; j < v[n].size(); j++) {
+
         if (child[n] != child[v[n][j].first] && n > v[n][j].first) sum += v[n][j].second;
     }
     if (n == 1) return 0;
