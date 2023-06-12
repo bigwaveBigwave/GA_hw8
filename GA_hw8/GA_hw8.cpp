@@ -9,6 +9,7 @@ using namespace std;
 int calcMemCost(int n, vector<int>& memo, vector<int>& child, vector<pair<int, int>> v[])
 {
     if (memo[n] > 0)return memo[n];
+
     int cost;
     int sum = 0;
     for (int j = 0; j < v[n].size(); j++) {
