@@ -20,6 +20,7 @@ int calcMemCost(int n, vector<int>& memo, vector<int>& child, vector<pair<int, i
     else cost = (calcMemCost(n - 1, memo, child, v)) + sum;
     memo[n] = cost;
     return cost;
+
 }
 
 
