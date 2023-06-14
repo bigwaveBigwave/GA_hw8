@@ -22,6 +22,7 @@ int calcMemCost(int n, vector<int>& memo, vector<int>& child, vector<pair<int, i
     return cost;
 }
 
+
 // 메모를 하지 않고 cost를 재귀로 구하는 함수. k부터 하나씩 줄어들다가 end가 되면 끝남. 
 int calcCost(int k, int r, vector<int>& child, vector<pair<int, int>> v[])
 {
