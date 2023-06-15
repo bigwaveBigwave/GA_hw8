@@ -19,6 +19,7 @@ int calcMemCost(int n, vector<int>& memo, vector<int>& child, vector<pair<int, i
     }
     if (n == 1) return 0;
     else cost = (calcMemCost(n - 1, memo, child, v)) + sum;
+
     memo[n] = cost;
     return cost;
 
@@ -176,6 +177,7 @@ int main() {
                 improved = false;
                 for (int i = 0; i < node; i++) {
                     // 노드 rand[i]를 반대 그룹으로 바꾼 새로운 해 만들기
+
                     vector<int> newX(child[a]);
                     int newC = 0;
                     newX[rand[i]] = 1 - newX[rand[i]];
