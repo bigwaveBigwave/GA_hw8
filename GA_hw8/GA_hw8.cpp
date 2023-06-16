@@ -228,6 +228,7 @@ int main() {
 
     // 결과 출력
     for (int k = 1; k <= node; k++) {
+
         if (parents[maxP][k] == 1) fout << k << " ";
     }
     fout << cost[maxP] << endl;
