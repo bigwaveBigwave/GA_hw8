@@ -170,6 +170,7 @@ int main() {
             // pesudo code 2행부터 
             // i는 무작위 순열 rand를 순회 
 
+
             vector<int> candidate(child[a]);
             int candiCost = childCost[a];
             bool improved = true;
