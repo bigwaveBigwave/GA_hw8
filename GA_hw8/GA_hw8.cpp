@@ -220,6 +220,7 @@ int main() {
 
 
     // 세대 중에 제일 큰 값 찾기
+
     for (int i = 0; i < parentNum; i++) {
         if (cost[maxP] < cost[i]) maxP = i;
     }
