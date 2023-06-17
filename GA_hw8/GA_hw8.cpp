@@ -212,10 +212,12 @@ int main() {
                 for (int k = 0; k < node; k++) {
                     parents[minP][k] = child[i][k];
                 }
+
                 minP = 0;
                 for (int k = 1; k < parentNum; k++) if (cost[minP] > cost[i]) minP = i;
             }
         }
+
     } while (countNum++ != 100); // 반복할 세대의 횟수
 
 
@@ -225,7 +227,7 @@ int main() {
         if (cost[maxP] < cost[i]) maxP = i;
     }
     for (int k = 1; k <= node; k++) cout << parents[maxP][k] << " ";
-
+    
     cout << endl;
 
     // 결과 출력
