@@ -225,6 +225,7 @@ int main() {
         if (cost[maxP] < cost[i]) maxP = i;
     }
     for (int k = 1; k <= node; k++) cout << parents[maxP][k] << " ";
+
     cout << endl;
 
     // 결과 출력
