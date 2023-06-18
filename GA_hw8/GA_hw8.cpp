@@ -200,6 +200,7 @@ int main() {
             childCost[a] = candiCost;
         }
         // replace
+
         int minP = 0;
         for (int i = 1; i < parentNum; i++)
             if (cost[minP] > cost[i]) {
@@ -211,6 +212,7 @@ int main() {
                 cost[minP] = childCost[i];
                 for (int k = 0; k < node; k++) {
                     parents[minP][k] = child[i][k];
+
                 }
 
                 minP = 0;
