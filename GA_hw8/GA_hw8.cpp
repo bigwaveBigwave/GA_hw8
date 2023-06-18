@@ -65,6 +65,7 @@ int main() {
     ofstream fout("maxcut.out");
 
     if (fout.fail()) {
+
         cerr << "파일 열기 에러" << endl; return -1;
     }
 
