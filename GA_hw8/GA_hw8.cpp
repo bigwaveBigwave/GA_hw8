@@ -89,6 +89,7 @@ int main() {
 
     int cost[10];
     vector<vector<int>> parents(parentNum, vector<int>(node + 1));
+
     for (int i = 0; i < parentNum; i++) {
         for (int j = 1; j <= node; j++) {
             parents[i][j] = rand() % 2;
