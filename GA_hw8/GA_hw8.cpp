@@ -150,6 +150,7 @@ int main() {
                 if (randNum < 1) {
                     if (child[a][i] == 0) child[a][i] = 1;
                     else child[a][i] = 0;
+
                 }
             }
 
