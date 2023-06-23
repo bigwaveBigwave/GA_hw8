@@ -116,6 +116,7 @@ int main() {
 
     do {
 
+
         for (int a = 0; a < childNum; ++a) {
             int n1, n2, s1, s2;
             do {
@@ -125,6 +126,7 @@ int main() {
 
             int randNum = rand() % 100;
             if (randNum < 60) s1 = (cost[n1] < cost[n2] ? n1 : n2);
+
             else s1 = (cost[n1] > cost[n2] ? n1 : n2);
 
             do {
