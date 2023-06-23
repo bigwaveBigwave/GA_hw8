@@ -96,6 +96,7 @@ int main() {
         }
     }
 
+
     for (int k = 0; k < parentNum; k++) {
 
         int sum = 0;
