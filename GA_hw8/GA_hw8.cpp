@@ -62,6 +62,7 @@ int main() {
     vector <pair<int, int>> v[1001];
 
     ifstream fp("test.txt");
+
     ofstream fout("maxcut.out");
 
     if (fout.fail()) {
