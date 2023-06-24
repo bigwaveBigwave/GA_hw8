@@ -104,6 +104,7 @@ int main() {
         for (int i = 1; i <= node; i++) {
             for (int j = 0; j < v[i].size(); j++) {
                 if (parents[k][i] != parents[k][v[i][j].first] && i < v[i][j].first) sum += v[i][j].second;
+
             }
         }
         cost[k] = sum;
@@ -112,6 +113,7 @@ int main() {
     // 부모 2개를 선택. 토너먼트 방식으로 함. 
     int childCost[5];
     int childNum = 5;
+
     vector<vector<int>> child(childNum, vector<int>(node + 1));
     int maxP = 0;
     int countNum = 0;
