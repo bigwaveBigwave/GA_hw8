@@ -55,6 +55,7 @@ int calcLocal(int n, vector<int>& newX, int r, vector<int>& memo, vector<pair<in
 int main() {
 
     int node, edge;
+
     double p;
     srand(time(NULL));
 
