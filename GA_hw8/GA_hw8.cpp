@@ -57,6 +57,7 @@ int main() {
     int node, edge;
 
     double p;
+
     srand(time(NULL));
 
 
