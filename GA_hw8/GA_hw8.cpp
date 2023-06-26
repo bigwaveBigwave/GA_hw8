@@ -264,6 +264,7 @@ int main() {
         if (parents[maxP][k] == 1) fout << k << " ";
     }
     fout << cost[maxP] << endl;
+
     fp.close();
 }
 
