@@ -168,6 +168,7 @@ int main() {
             // 만들어진 세대의 cost 구하기 -> 함수로 위에 있음. 재귀로 구현
            // memoization 배열 memo[]
 
+
             vector<int> memo(node + 1);
             for (int i = 0; i < memo.size(); i++) memo[i] = 0;
 
