@@ -174,6 +174,7 @@ int main() {
             childCost[a] = calcMemCost(node, memo, child[a], v);
 
 
+
             // 지역 최적화 
             
             // 노드 크기만큼의 무작위 순열 만들기
