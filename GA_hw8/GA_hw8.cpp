@@ -184,6 +184,7 @@ int main() {
             vector<int> rand;
             for (int i = 1; i <= node; ++i) {
 
+
                 rand.push_back(i);
             }
             random_shuffle(rand.begin(), rand.end());
