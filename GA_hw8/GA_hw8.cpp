@@ -148,6 +148,7 @@ int main() {
             else s2 = (cost[n1] > cost[n2] ? n1 : n2);
 
             // 반반해서 자식 만들기
+
             for (int i = 1; i <= node; i++) {
                 if (i <= (node / 2)) child[a][i] = parents[s1][i];
                 else child[a][i] = parents[s2][i];
