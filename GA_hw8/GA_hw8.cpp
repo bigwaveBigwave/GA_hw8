@@ -265,6 +265,7 @@ int main() {
     }
     fout << cost[maxP] << endl;
 
+
     fp.close();
 }
 
