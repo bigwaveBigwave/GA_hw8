@@ -163,6 +163,7 @@ int main() {
 
             for (int i = 1; i <= node; i++) {
                 randNum = rand() % 1000;
+
                 if (randNum < 1) {
                     if (child[a][i] == 0) child[a][i] = 1;
                     else child[a][i] = 0;
