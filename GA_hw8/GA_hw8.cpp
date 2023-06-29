@@ -120,6 +120,7 @@ int main() {
     int childNum = 5;
 
     vector<vector<int>> child(childNum, vector<int>(node + 1));
+
     int maxP = 0;
     int countNum = 0;
 
