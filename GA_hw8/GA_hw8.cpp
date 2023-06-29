@@ -140,6 +140,7 @@ int main() {
 
             else s1 = (cost[n1] > cost[n2] ? n1 : n2);
 
+
             do {
                 n1 = rand() % parentNum;
                 n2 = rand() % parentNum;
