@@ -91,6 +91,7 @@ int main() {
 
     int parentNum = 10;
 
+
     int cost[10];
     vector<vector<int>> parents(parentNum, vector<int>(node + 1));
 
@@ -123,6 +124,7 @@ int main() {
 
     int maxP = 0;
     int countNum = 0;
+
 
 
     do {
