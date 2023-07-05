@@ -159,6 +159,7 @@ int main() {
 
             for (int i = 1; i <= node; i++) {
                 if (i <= (node / 2)) child[a][i] = parents[s1][i];
+
                 else child[a][i] = parents[s2][i];
 
             }
