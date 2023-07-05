@@ -140,6 +140,7 @@ int main() {
             } while (n1 == n2);
 
             int randNum = rand() % 100;
+
             if (randNum < 60) s1 = (cost[n1] < cost[n2] ? n1 : n2);
 
             else s1 = (cost[n1] > cost[n2] ? n1 : n2);
