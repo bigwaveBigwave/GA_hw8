@@ -92,6 +92,7 @@ int main() {
     int parentNum = 10;
 
 
+
     int cost[10];
     vector<vector<int>> parents(parentNum, vector<int>(node + 1));
 
